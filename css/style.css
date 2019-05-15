@@ -1,0 +1,93 @@
+body {
+	background-image: url("../images/fond4.jpg") ; 
+}
+
+h1 {
+	text-align: center;
+ 	color : orange;
+}
+
+p {
+
+}
+
+a{
+	text-decoration: none;
+	color : yellow;
+}
+
+
+ul {
+
+}
+
+li {
+	margin: 5px;
+	padding-right: 10px ;
+}
+
+
+
+#center {
+	background: white;
+	height : 100%;
+	width : 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding: 2%;
+}
+
+#menu_index li{
+	display: inline-block;
+}
+
+.clignote {
+ 		animation: clignoter 1s step-start infinite;
+}
+@keyframes clignoter {
+  50% {
+    color: red; /*mettre la couleur ici*/
+  }
+}
+
+.coloration a:hover {
+
+	animation: coloration 0.5s step-start infinite;
+}
+@keyframes coloration {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: #0AE566;}
+    100% {background-color: violet;}
+
+}
+
+.rotation {
+ 		animation: rotation 1s step-start infinite;
+}
+@keyframes rotation {
+  50% {
+    transform: rotate(20deg); /*mettre la couleur ici*/
+  }
+  100% {
+    transform: rotate(-20deg); /*mettre la couleur ici*/
+  }
+
+}
+.tableau
+{
+	font-family: "Arial";
+	font-size: 30px;
+	border-radius: 10px;
+	text-align: center;
+	border: solid black 3px;
+	width: 100%
+
+}
+.note
+{
+	text-align: center;
+	border: solid black 3px;
+
+}
