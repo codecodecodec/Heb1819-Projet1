@@ -11,3 +11,4 @@ Ouvrir le fichier index.html avec le navigateur web
 ### en ligne
 Pour les élèves inscrit chez CCC, le site est disponible sur le site http://codecodecodec.com/projetnoel/
 
+[![CCC](http://extranet.codecodecodec.com/images/ccc200px.png "Code Code Codec")](https://codecodecodec.com/)
